@@ -1,2 +1,3 @@
 # AutoEcole
-ProjetAutoEcole3IL
+Projet Web AutoEcole
+Par PRATS Maximilien, RAYNAL Guillaume & SERENE Guilhem
