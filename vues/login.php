@@ -1,9 +1,9 @@
-<?php if (isset($message)) { echo htmlspecialchars($message); } ?>
+<?php echo htmlspecialchars($message); ?>
 
-<form name="login" action="" method="post" accept-charset="utf-8">
+<form name="login" action="main.php?rubrique=login" method="post" accept-charset="utf-8">
 	
 	<label for="mail">Adresse mail :</label>
-	<input type="email" name="mail" id="mail" value="<?php if (isset($mail)) { echo htmlspecialchars($mail); } ?>" />
+	<input type="email" name="mail" id="mail" value="<?php echo htmlspecialchars($mail); ?>" />
 	
 	<label for="mdp">Mot de passe :</label>
 	<input type="password" name="mdp" id="mdp" />
