@@ -17,10 +17,11 @@ $lien_base =
 (CONNECT_DATA =
 	(SERVICE_NAME = ".$service.")
 )
-)";
+);charset=UTF8";
 
 try {
 	$cnx = new PDO($lien_base, $utilisateur, $motdepasse);
 } catch (PDOException $e) {
 	echo $e->getMessage();
 }
+

@@ -1,5 +1,11 @@
 <?php
 
+session_start();
+
+if (isset($_SESSION['mail'])) {
+	header('location:main.php?rubrique=index');
+}
+
 $mail = '';
 $mdp = '';
 $message = '';
@@ -11,7 +17,7 @@ if (isset($_POST['soumission'])) {
 	if ($mail == '' or $mdp == '') {
 		$message = 'Tous les champs doivent être renseignés.';
 	} else {
-		require_once('modeles/login.php');
+		require_once('modeles/m_login.php');
 		
 		$count = verifLogin($mail, $mdp);
 		
@@ -25,4 +31,4 @@ if (isset($_POST['soumission'])) {
 	}
 }
 
-require_once('vues/login.php');
+require_once('vues/v_login.php');

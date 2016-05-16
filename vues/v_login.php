@@ -10,3 +10,5 @@
 	
 	<input type="submit" name="soumission" value="Se connecter" />
 </form>
+
+<a href="main.php?rubrique=index">Retour</a>
