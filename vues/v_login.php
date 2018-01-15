@@ -1,4 +1,12 @@
-<?php echo htmlspecialchars($message); ?>
+<h3>Se connecter</h3>
+
+<?php
+
+	if (!empty($message)) {
+		echo '<p class="info">'.htmlspecialchars($message).'</p>';
+	}
+	
+?>
 
 <form name="login" action="main.php?rubrique=login" method="post" accept-charset="utf-8">
 	

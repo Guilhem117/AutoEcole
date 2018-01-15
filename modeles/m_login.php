@@ -1,5 +1,6 @@
 <?php
 
+// Contrôle la validité d'un couple login/mdp
 function verifLogin($mail, $mdp) {
 	global $cnx;
 	

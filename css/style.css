@@ -1,0 +1,141 @@
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, ul, li {
+	margin           : 0;
+	padding          : 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin-bottom    : 20px;
+}
+	
+body {
+	background-image : url(../img/bgnoise.gif);
+	font-family      : Arial;
+}
+
+p {
+	text-align       : justify;
+	margin-bottom    : 10px;
+}
+
+.info {
+	color            : black;
+	padding          : 8px;
+	background-color : #e2f1ff;
+}
+
+.erreur {
+    color            : black;
+	padding          : 8px;
+	background-color : #fff3f3;
+}
+
+a {
+	text-decoration  : none;
+	color            : grey;
+}
+
+#conteneur {
+	margin-right     : auto;
+	margin-left      : auto;
+	width            : 850px;
+	box-shadow       : 8px 8px 12px #aaa;
+}
+
+#bandeau_titre {
+	padding          : 8px;
+	font-size        : 25px;
+	background-color : #18393f;
+	color            : white;
+	position         : relative;
+	min-height       : 80px;
+}
+
+#menu {
+	list-style       : none;
+	height           : 34px;
+}
+
+#menu li {
+	float            : left;
+	border-right     : 1px solid white;
+	height           : inherit;
+}
+
+#menu, #menu li {
+	background-color : #1d6471;
+}
+
+
+#menu li .selection {
+	background-color : white;
+	color            : #1d6471;
+}
+
+#menu li a {
+	display          : block;
+	color            : #e9e9e9;
+	font-size        : 12px;
+	font-weight      : bold;
+	height           : 20px;
+	padding          : 7px 10px;
+}
+
+#menu li a:hover {
+	background-color : #268394;
+}
+
+#menu li a[class="selection"]:hover {
+	background-color : white;
+}
+
+#menu li a:active {
+	background-color : #00b8d9;
+}
+
+#corps {
+	min-height       : 500px;
+	background-color : white;
+	padding          : 20px 20px 20px;
+	clear            : both;
+}
+
+footer {
+	background-color : white;
+	margin-bottom    : 50px;
+}
+
+#statutInscriptionExam {
+	display          : inline;
+}
+
+input, select {
+	display          : block;
+	margin-bottom    : 5px;
+	margin-top       : 3px;
+}
+
+#retour {
+	margin : 5px;
+}
+
+#accueil {
+	margin : 5px;
+}
+
+#submit_ajouter {
+	background:url("icons/add.png");
+	border:none;
+	font-size:0px;
+	width: 24px; /* largeur à spécifier */
+	height: 24px; /* longueur à spécifier */
+	cursor: pointer;
+}
+
+#submit_enregistrer {
+	background:url("icons/save.png");
+	border:none;
+	font-size:0px;
+	width: 24px; /* largeur à spécifier */
+	height: 24px; /* longueur à spécifier */
+	cursor: pointer;
+}
